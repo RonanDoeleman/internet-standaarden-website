@@ -1,0 +1,474 @@
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+  background-image: url(../images/Asset1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+
+
+nav{
+  position: sticky;
+  z-index: 99;
+}
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;    
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        width: 100%;
+        height: 70px;
+      }
+
+      ul li a {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        font-size: 25px;
+      }
+
+      ul li a:hover {
+        background-color: #e30613;
+        transition: all .5s ease-in-out;
+      }
+
+      img {
+        width: 40px;
+        height: auto;
+      }
+  h1{
+    font-size: 2cm;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+
+    h2{
+    margin: 0;
+    padding: 0 10px;
+    color: #e30613;
+    font-size: 1cm;
+    font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+section {
+  position: relative;
+  min-height: 250px;
+}
+
+p{
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+.restaurants a,
+.coffee-places a,
+.lunchrooms a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../images/Asset4.png);
+  background-size: cover;
+  height: 97px;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.restaurants a p,
+.coffee-places a p,
+.lunchrooms a p {
+  text-align: right;
+  color: black;
+  padding: 0;
+  margin: 17px 0;
+  
+}
+
+.mapsterdamn{
+ width: 50px;
+ height: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ margin-bottom: 100px;
+}
+
+.arrow{
+  width: 20px;
+  height: 20px;
+  z-index: 50;
+  margin: 20px;
+  margin-left: 5px;
+}
+
+
+/* LUNCHROOMS PAGINA */
+
+
+.isgalogo{
+  width: 50px;
+  height: auto;
+  position: relative;
+  top: -100px;
+  right: -500px;
+}
+
+.goback{
+  z-index: 99;
+  width: 40px;
+  height: auto;
+  position: relative;
+  top: -90px;
+  left: -40px;
+}
+
+.starbucks h2{
+  text-align: right;
+  padding-right: 100px;
+  font-size: 1.2cm;
+}
+img.starbuckslogo{
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-left: 30px;
+  border: solid black 1px;
+  margin-right: 5px;
+}
+
+.starbucks p{
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.favorieten{
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  width: 40px;
+  height: auto;
+}
+
+.favorieten:hover{
+  fill: orange;
+  padding: 0;
+  transform: skew(-10deg);
+}
+
+.lunchroompagina p{
+  margin-top: -5px;
+}
+
+.search-bar{
+  margin-bottom: 30px;
+  margin-top: -50px;
+}
+
+form{
+  padding-left: 92px;
+}
+
+input{
+  height: auto;
+  border: none;
+}
+
+#zoekknop{
+  width: 55px;
+  border: none;
+  margin-top: 50px;
+}
+
+#naamlunchroom{
+  width: 300px;
+  height: 45px;
+  padding-top: 30px;
+  border: solid black 1px;
+}
+
+::placeholder{
+  font-size: 20px;
+}
+
+hr{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.starbucks hr,
+.bagelsenbeans hr,
+.stach hr{
+  width: 85%;
+  height: 1px;
+}
+
+.bagelsenbeans p,
+.stach p,
+.vandobben p{
+  padding-left: 45px;
+}
+
+.bagelsenbeans h2,
+.stach h2,
+.vandobben h2{
+  padding-left: 45px;
+}
+
+.vandobben{
+  margin-bottom: 20px;
+}
+
+.bagelsenbeans u,
+.stach u,
+.starbucks u,
+.vandobben u{
+  color: green;
+}
+
+.vandobben a,
+.starbucks a,
+.stach a,
+.bagelsenbeans a:visited{
+  color: green;
+}
+
+.bagelsenbeans i,
+.stach i,
+.vandobben i{
+  margin-left: 5px;
+}
+
+section.stach{
+  margin-bottom: -40px;
+}
+
+section.starbucks{
+  margin-bottom: -5px;
+}
+
+section.bagelsenbeans{
+  margin-bottom: -15px;
+}
+
+/* Starbucks Detail Pagina */
+
+.starbucksdetail h2{
+  font-size: 1.6cm;
+}
+
+.starbucksdetail a:visited{
+  color: green
+}
+
+#streep{
+  width: 85%;
+  height: 0.5px;
+}
+
+img.locatie{
+  width: 50px;
+  height: auto;
+  position: relative;
+  top: -45px;
+  right: -80px;
+}
+
+.locatiebar p{
+  padding-left: 150px;
+  font-size: 1cm;
+  margin-top: 25px;
+  margin-bottom: -20px;
+  color: green;
+}
+.mooiester{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: -5px;
+  right: 120px;
+}
+
+.mooiester:hover{
+  fill: orange;
+  padding: 0;
+  transform: skew(-10deg);
+}
+
+img.anzichtkaart {
+ width: 50px;
+ height: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ margin-bottom: 100px;
+}
+
+section.filter{
+  width: 380px;
+  border: 1px solid black;
+  margin-left: 85px;
+  background: #e30613;
+  margin-bottom: 50px;
+  border-bottom: -100px;
+}
+
+section.filter h2{
+  padding-left: 138px;
+  color: black;
+  font-size: 1.2cm;
+}
+
+section.filter hr{
+  height: 1px;
+  background-color: white;
+  color: white;
+}
+
+section.filter p{
+  margin-top: 10px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.slidecontainer {
+  width: 100%;
+  margin-left: 60px;
+}
+
+.slider{
+  -webkit-appearance:none;
+  width: 70%;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+
+.slider:hover{
+  opacity: 1;
+  background-color: white;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 15px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 0.8em;
+}
+
+.rating{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  direction: rtl;
+}
+
+.rating > span{
+  width: 1.2em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: orange;
+}
+
+.price{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  direction: rtl;
+}
+
+.price > span{
+  width: 1.2em;
+}
+
+.price > span:hover:before,
+.price > span:hover ~ span:before {
+   content: "\0024";
+   position: absolute;
+   color: green
+}
+
+h3{
+  font-size: 40px;
+  color: #e30613;
+  margin-bottom: -20px;
+}
+
+img.kroket{
+  width: 150px;
+  height: auto;
+  float: left;
+}
+  
+.starfavoriet{
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  width: 40px;
+  height: auto;
+  color: orange;
+}
+
+.starfavoriet:hover{
+  fill: orange;
+  padding: 0;
+  transform: skew(-10deg);
+}
+
+section.vandobbenfavo{
+  margin-bottom: -130px;
+  margin-top: 50px;
+
+}
+
+img.locatiefavo{
+  margin-left: 90px;
+  margin-bottom: -50px;
+}
+
+h4{
+  margin-bottom: -58px;
+  font-size: 20px;
+  color: green;
+}
