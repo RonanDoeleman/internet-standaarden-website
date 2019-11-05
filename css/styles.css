@@ -1,9 +1,8 @@
 
-
-
 html, body {
   margin: 0;
   padding: 0;
+  position: absolute;
   font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -12,9 +11,10 @@ header {
   background-image: url(../images/Asset1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 150px;
+  height: 9.4em;
+  width: 40em;
+  display: flex;
 }
-
 
 
 nav{
@@ -26,7 +26,7 @@ nav{
         display: flex;
         justify-content: space-evenly;    
         position: fixed;
-        bottom: 0px;
+        bottom: 0em;
         width: 100%;
         list-style: none;
         padding: 0;
@@ -35,7 +35,7 @@ nav{
 
       li {
         width: 100%;
-        height: 70px;
+        height: 5em;
       }
 
       ul li a {
@@ -48,7 +48,7 @@ nav{
         color: black;
         background-color: white;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 1.3em;
       }
 
       ul li a:hover {
@@ -57,33 +57,34 @@ nav{
       }
 
       img {
-        width: 40px;
+        width: 2.3em;
         height: auto;
       }
   h1{
-    font-size: 2cm;
-    text-align: center;
+    font-size: 5em;
     color: white;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2em;
+    width: 4.3em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
-
     }
 
     h2{
     margin: 0;
     padding: 0 10px;
     color: #e30613;
-    font-size: 1cm;
+    font-size: 2.5em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
 section {
   position: relative;
-  min-height: 250px;
+  min-height: 15.6em;
 }
 
 p{
-  font-size: 18px;
+  font-size: 1.3em;
   padding: 0 20px;
 }
 
@@ -96,7 +97,7 @@ p{
   right: 0;
   background-image: url(../images/Asset4.png);
   background-size: cover;
-  height: 97px;
+  height: 8em;
   text-decoration: none;
   display: flex;
   justify-content: flex-end;
@@ -109,26 +110,26 @@ p{
   text-align: right;
   color: black;
   padding: 0;
-  margin: 17px 0;
+  margin: 1.1em 0;
   
 }
 
 .mapsterdamn{
- width: 50px;
+ width: 3em;
  height: auto;
  display: block;
  margin-left: auto;
  margin-right: auto;
  width: 75%;
- margin-bottom: 100px;
+ margin-bottom: 6em;
 }
 
 .arrow{
-  width: 20px;
-  height: 20px;
-  z-index: 50;
-  margin: 20px;
-  margin-left: 5px;
+  width: 1.1em;
+  height: 1.1em;
+  z-index: 3em;
+  margin: 1.1em;
+  margin-left: 0.3em;
 }
 
 
@@ -136,19 +137,18 @@ p{
 
 
 .isgalogo{
-  width: 50px;
-  height: auto;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  width: 4.5em;
+  height: 4.5em;
+  position: relative;
+  float: right;
 }
 
 .goback{
   z-index: 99;
-  width: 40px;
+  width: 4em;
   height: auto;
   position: absolute;
-  top: 40px;
+  top: 2.6em;
   left: 15px;
 }
 
@@ -430,6 +430,8 @@ section.filter p{
    position: absolute;
    color: green
 }
+
+/* favorieten pagina */
 
 h3{
   font-size: 40px;

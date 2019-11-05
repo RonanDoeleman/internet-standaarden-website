@@ -2,158 +2,158 @@
 
 <html>
  
-<!-- Meta Informatie -->
+    <!-- Meta Informatie -->
 
-<head>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <title>Lunchrooms</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- </head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+        <title>Lunchrooms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
-<!-- Content -->
+    <!-- Content -->
 
- <body class="lunchroompagina">
+    <body class="lunchroompagina">
 
-     <header>
-         <h1>Lunchrooms</h1>
-           <img class='isgalogo' src="./images/isga.png" alt="hetisgalogo">
-          <a href="index.html">
-            <img class='goback' src='./images/goback.png' alt='pijltjeterug'>
-          </a>
-           
-     </header>
- 
-     <nav>
-            <ul>
-                <li><a href='index.html'>Menu</a></li>
-                <li><a href='detail.html'><img src="./images/vergrootglas.png" alt=vergrootglas></a></li>
-                <li><a href='favorieten.html'><img src="./images/star.png" alt=ster></a></li>
-            </ul>
-        </nav>
-   
-    <form class="search-bar" action="http://www.google.nl/search.php"> 
+        <header id="anderformaat">
+                <h1>Lunchrooms</h1>
+                <img class='isgalogo' src="./images/isga.png" alt="hetisgalogo">
+                <a href="index.html">
+                    <img class='goback' src='./images/goback.png' alt='pijltjeterug'>
+                </a>
+                
+        </header>
         
-        <input type="image" id="zoekknop" alt="zoeken" src="./images/zoekmachine.png">
+        <nav>
+                    <ul>
+                        <li><a href='index.html'>Menu</a></li>
+                        <li><a href='detail.html'><img src="./images/vergrootglas.png" alt=vergrootglas></a></li>
+                        <li><a href='favorieten.html'><img src="./images/star.png" alt=ster></a></li>
+                    </ul>
+       </nav>
+        
+            <form class="search-bar" action="http://www.google.nl/search.php"> 
+                
+                <input type="image" id="zoekknop" alt="zoeken" src="./images/zoekmachine.png">
 
-        <input type="search" name="Search" id="naamlunchroom" placeholder="Lunchrooms..."/>
-      
-    </form>
-     
-    <hr> 
+                <input type="search" name="Search" id="naamlunchroom" placeholder="Lunchrooms..."/>
+            
+            </form>
+            
+            <hr> 
 
-    <section class="filter">
-            <h2>Filter</h2>
+            <section class="filter">
+                    <h2>Filter</h2>
 
+                    <hr>
+                
+                    <p>Distance</p> 
+
+                    <div class="slidecontainer">
+                            <input type="range" min="0" max="100" value="1" class="slider" id="myRange">
+                    </div>
+
+                    <p>Rating</p>
+
+                    <div class="rating">
+                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                    </div>
+
+
+                    <p>Price</p>
+
+                    <div class='price'>
+                        <span>$</span><span>$</span><span>$</span><span>$</span><span>$</span>
+                    </div>
+
+                
+            </section>
+
+        <section class='starbucks'>
+
+            <a href="starbucks.html">
+                <img class=starbuckslogo src="./images/starbucks.jpg" alt='starbucks logo'>
+            </a>
+
+
+            <a href="favorieten.html">
+                    <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
+                    <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
+            </a>
+            
+            <h2>1. Starbucks</h2>
+
+                <p><a href="https://google.nl/maps">0.3 km</a><br>
+                
+                    <i>''The best coffee For the best you''</i>
+                </p>
+            
+            <p>  
+            Starbucks is probably one of the most known lunch and coffee spots in the world. I’ts validly world famous. In every city and almost every recognizable town you have one.
+            </p>
+            
             <hr>
+        </section>
+
+        <section class="bagelsenbeans">
+
+                <a href="favorieten.html">
+                    <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
+                    <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
+                </a>
+            
+            <h2>2. Bagels & Beans</h2> 
+
+            <p><a href="https://google.nl/maps">0.8 km</a>
+
+                <i>''Bagels, Coffee and Happiness''</i>
+            </p>
+
+            <p>Bagels & Beans is the perfect place to lunch if you are going to grab food with friends or family. The name says it all. If u like bagels this is the perfect place to go to. Here you can get everything you want on a bagel. From just regular salmon bagels to bagels tosti’s and bagels with bacon and egg. Shortly, this is bagel heaven.  
+            </p>
+            
+            <hr>
+        </section>
+
+        <section class="stach">
+
+                <a href="favorieten.html">
+                    <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
+                    <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
+                </a>
+            
+            <h2>3. Stach</h2>
+
+            <p><a href="https://google.nl/maps">1.2 km</a>
+
+                <i>''Stach knows what food is good''</i>
+            </p>
+
+            <p>You have to do so many things on a daily base that the least you can do is take care of yourself. That’s what Stach stands for, healthy food with fresh ingredients. Stach has everything you need to make everyday your day.
+            </p>
+            
+            <hr>
+        </section>
+
+        <section class="vandobben">
+
+                <a href="favorieten.html">
+                    <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
+                    <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
+                </a>
+            
+            <h2>4. Van Dobben</h2>
+
+            <p><a href="https://google.nl/maps">1.3 km</a>
+                <i>''What Amsterdam tastes like''</i>
+            </p>
+
+            <p>Almost everyone in the Netherlands loves ‘’croquetten’’. This is simply said some meat rolled into a crispy layer of breadcrumb. It's delicious! If you want to taste Amsterdam, this is the place to go!
+            </p>
         
-            <p>Distance</p> 
+            <hr>
+        </section>
 
-            <div class="slidecontainer">
-                    <input type="range" min="0" max="100" value="1" class="slider" id="myRange">
-            </div>
-
-            <p>Rating</p>
-
-            <div class="rating">
-                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-            </div>
-
-
-            <p>Price</p>
-
-            <div class='price'>
-                <span>$</span><span>$</span><span>$</span><span>$</span><span>$</span>
-            </div>
-
-        
-    </section>
-
-  <section class='starbucks'>
-
-      <a href="starbucks.html">
-        <img class=starbuckslogo src="./images/starbucks.jpg" alt='starbucks logo'>
-      </a>
-
-
-      <a href="favorieten.html">
-            <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
-            <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
-      </a>
-      
-     <h2>1. Starbucks</h2>
-
-        <p><a href="https://google.nl/maps">0.3 km</a><br>
-        
-            <i>''The best coffee For the best you''</i>
-        </p>
-    
-     <p>  
-       Starbucks is probably one of the most known lunch and coffee spots in the world. I’ts validly world famous. In every city and almost every recognizable town you have one.
-     </p>
-     
-     <hr>
-  </section>
-
-  <section class="bagelsenbeans">
-
-        <a href="favorieten.html">
-            <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
-            <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
-        </a>
-    
-    <h2>2. Bagels & Beans</h2> 
-
-    <p><a href="https://google.nl/maps">0.8 km</a>
-
-        <i>''Bagels, Coffee and Happiness''</i>
-    </p>
-
-    <p>Bagels & Beans is the perfect place to lunch if you are going to grab food with friends or family. The name says it all. If u like bagels this is the perfect place to go to. Here you can get everything you want on a bagel. From just regular salmon bagels to bagels tosti’s and bagels with bacon and egg. Shortly, this is bagel heaven.  
-    </p>
-      
-    <hr>
-  </section>
-
-  <section class="stach">
-
-        <a href="favorieten.html">
-            <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
-            <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
-        </a>
-    
-    <h2>3. Stach</h2>
-
-    <p><a href="https://google.nl/maps">1.2 km</a>
-
-        <i>''Stach knows what food is good''</i>
-    </p>
-
-    <p>You have to do so many things on a daily base that the least you can do is take care of yourself. That’s what Stach stands for, healthy food with fresh ingredients. Stach has everything you need to make everyday your day.
-    </p>
-      
-    <hr>
-  </section>
-
-  <section class="vandobben">
-
-        <a href="favorieten.html">
-            <svg class='favorieten' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.867 55.867" width="40" height="40"><path d="M11.287 54.548a.997.997 0 01-.985-1.169l3.091-18.018L.302 22.602a1.001 1.001 0 01.555-1.705l18.09-2.629 8.091-16.393a.996.996 0 011.792 0l8.09 16.393 18.091 2.629a1.002 1.002 0 01.555 1.705L42.475 35.363l3.09 18.017c.064.375-.09.754-.397.978a.993.993 0 01-1.054.076l-16.18-8.506-16.182 8.506a1.008 1.008 0 01-.465.114zM3.149 22.584l12.016 11.713a1 1 0 01.287.885L12.615 51.72l14.854-7.808a.996.996 0 01.931 0l14.852 7.808-2.836-16.538a1 1 0 01.287-.885l12.016-11.713-16.605-2.413a1 1 0 01-.753-.547L27.934 4.578l-7.427 15.047a1 1 0 01-.753.547L3.149 22.584z"/></svg>
-            <!-- <img class='favorieten' src='./images/star.svg' alt='favorieten'> -->
-        </a>
-    
-    <h2>4. Van Dobben</h2>
-
-    <p><a href="https://google.nl/maps">1.3 km</a>
-        <i>''What Amsterdam tastes like''</i>
-    </p>
-
-    <p>Almost everyone in the Netherlands loves ‘’croquetten’’. This is simply said some meat rolled into a crispy layer of breadcrumb. It's delicious! If you want to taste Amsterdam, this is the place to go!
-    </p>
-  
-    <hr>
-  </section>
-
-</body>
+    </body>
 
 
 
