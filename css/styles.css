@@ -61,7 +61,7 @@ nav{
         height: auto;
       }
   h1{
-    font-size: 5em;
+    font-size: 4.5em;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +74,7 @@ nav{
     margin: 0;
     padding: 0 10px;
     color: #e30613;
-    font-size: 2.5em;
+    font-size: 2.9em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
@@ -149,33 +149,33 @@ p{
   height: auto;
   position: absolute;
   top: 2.6em;
-  left: 15px;
+  left: 1em;
 }
 
 .starbucks h2{
-  padding-right: 100px;
-  font-size: 1.2cm;
+  padding-right: 4em;
+  font-size: 3em;
 }
 img.starbuckslogo{
   float: left;
-  width: 150px;
+  width: 9.5em;
   height: auto;
-  margin-left: 30px;
+  margin-left: 2em;
   border: solid black 1px;
-  margin-right: 5px;
+  margin-right: 0.5em;
 }
 
 .starbucks p{
-  padding-left: 50px;
-  padding-right: 20px;
-  margin-bottom: 20px;
+  padding-left: 3.1em;
+  padding-right: 1.2em;
+  margin-bottom: 1.2em;
 }
 
 .favorieten{
   position: absolute;
-  right: 40px;
-  top: 5px;
-  width: 40px;
+  right: 3.5em;
+  top: 0.5em;
+  width: 2.5em;
   height: auto;
 }
 
@@ -186,18 +186,16 @@ img.starbuckslogo{
 }
 
 .lunchroompagina p{
-  margin-top: -5px;
+  margin-top: -0.4em;
 }
 
 .search-bar{
   display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-
-form{
-  padding-left: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24em;
+  margin-bottom: 2em;
+  margin-top: 1.2em;
 }
 
 input{
@@ -206,51 +204,56 @@ input{
 }
 
 #zoekknop{
-  width: 55px;
+  width: 5em;
   border: none;
-  margin-right: 15px;
+  margin-right: 1em;
 }
 
 #naamlunchroom{
-  font-size: 25px;
-  width: 300px;
-  height: 45px;
-  padding: 5px;
+  font-size: 1.5em;
+  width: 20em;
+  height: 3em;
+  padding: 0.4em;
   border: solid black 1px;
 }
 
 ::placeholder{
-  font-size: 20px;
+  font-size: 1.2em;
 }
 
 hr{
   width: 100%;
-  height: 2px;
+  height: 0.1em;
   background-color: black;
-  margin-bottom: 20px;
+  margin-bottom: 1.2em;
 }
 
 .starbucks hr,
 .bagelsenbeans hr,
 .stach hr{
   width: 85%;
-  height: 1px;
+  height: 0.1em;
 }
 
 .bagelsenbeans p,
 .stach p,
 .vandobben p{
-  padding-left: 45px;
+  padding-left: 2.5em;
 }
 
 .bagelsenbeans h2,
 .stach h2,
 .vandobben h2{
-  padding-left: 45px;
+  padding-left: 1.2em;
+}
+
+.bagelsenbeans h2{
+  margin-bottom: 0.2em;
 }
 
 .vandobben{
-  margin-bottom: 20px;
+  margin-bottom: 3.3em;
+  margin-top: 1em;
 }
 
 .bagelsenbeans u,
@@ -270,25 +273,29 @@ hr{
 .bagelsenbeans i,
 .stach i,
 .vandobben i{
-  margin-left: 5px;
+  margin-left: 0.3em;
 }
 
 section.stach{
-  margin-bottom: -40px;
+  margin-bottom: -2.5em;
 }
 
 section.starbucks{
-  margin-bottom: -5px;
+  margin-bottom: -0.4em;
 }
 
 section.bagelsenbeans{
-  margin-bottom: -15px;
+  margin-bottom: -1em;
 }
 
 /* Starbucks Detail Pagina */
 
 .starbucksdetail h2{
-  font-size: 1.6cm;
+  font-size: 5em;
+}
+
+i{
+  font-size: 1.2em;
 }
 
 .starbucksdetail a:visited{
@@ -297,15 +304,15 @@ section.bagelsenbeans{
 
 #streep{
   width: 85%;
-  height: 0.5px;
+  height: 0.1em;
 }
 
 img.locatie{
-  width: 50px;
+  width: 3em;
   height: auto;
   position: relative;
-  top: -45px;
-  right: -80px;
+  top: -2.7em;
+  right: -5em;
 }
 
 .locatiebar p{
@@ -317,10 +324,10 @@ img.locatie{
 }
 .mooiester{
   position: absolute;
-  width: 50px;
+  width: 3em;
   height: auto;
-  top: -5px;
-  right: 120px;
+  top: -0.4em;
+  right: 8em;
 }
 
 .mooiester:hover{
@@ -330,52 +337,50 @@ img.locatie{
 }
 
 img.anzichtkaart {
- width: 50px;
+ width: 3em;
  height: auto;
  display: block;
  margin-left: auto;
  margin-right: auto;
  width: 75%;
- margin-bottom: 100px;
 }
 
 section.filter{
-  width: 380px;
+  width: 25em;
   border: 1px solid black;
-  margin-left: 85px;
+  margin-left: 8em;
   background: #e30613;
-  margin-bottom: 50px;
-  border-bottom: -100px;
+  margin-bottom: 3em;
 }
 
 section.filter h2{
-  padding-left: 138px;
+  padding-left: 3em;
   color: black;
-  font-size: 1.2cm;
+  font-size: 3em;
 }
 
 section.filter hr{
-  height: 1px;
+  height: 0.1em;
   background-color: white;
   color: white;
 }
 
 section.filter p{
-  margin-top: 10px;
-  font-size: 25px;
+  margin-top: 0.6em;
+  font-size: 1.5em;
   color: white;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .slidecontainer {
   width: 100%;
-  margin-left: 60px;
+  margin-left: 3.8em;
 }
 
 .slider{
   -webkit-appearance:none;
   width: 70%;
-  border-radius: 10px;
+  border-radius: 0.5em;
   opacity: 0.7;
   transition: opacity 1s;
 }
@@ -434,9 +439,9 @@ section.filter p{
 /* favorieten pagina */
 
 h3{
-  font-size: 40px;
+  font-size: 2.5em;
   color: #e30613;
-  margin-bottom: -20px;
+  margin-bottom: -1.2em;
 }
 
 img.kroket{
