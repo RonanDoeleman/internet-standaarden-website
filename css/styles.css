@@ -399,7 +399,7 @@ section.filter{
 }
 
 section.filter h2{
-  padding-left: 3em;
+  padding-left: 3.1em;
   color: black;
   font-size: 3em;
 }
@@ -562,4 +562,23 @@ h4{
 .starbucks span,
 .vandobbenfavo span{
   color: green;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: greenyellow;
+  display: inline-block;
+  font-size: 1em;
+  margin-left: 18em;
+  cursor: pointer;
+  z-index: 99;
+}
+
+button:hover{
+  color: gold;
+  transition: ease-in-out 1s;
 }
