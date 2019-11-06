@@ -209,6 +209,10 @@ input{
   margin-right: 1em;
 }
 
+.geld{
+  color: green;
+}
+
 #naamlunchroom{
   font-size: 1.5em;
   width: 20em;
