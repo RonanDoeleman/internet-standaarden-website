@@ -162,6 +162,7 @@ img.starbuckslogo{
   margin-left: 2em;
   border: solid black 1px;
   margin-right: 0.5em;
+  margin-bottom: 2.5em;
 }
 
 .starbucks p{
@@ -490,6 +491,7 @@ section.filter p{
 .price > span:hover ~ span:before {
    content: "\0024";
    position: absolute;
+   height: 2em;
    color: green
 }
 
