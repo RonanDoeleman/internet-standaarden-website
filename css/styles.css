@@ -274,8 +274,15 @@ hr{
 .vandobben a,
 .starbucks a,
 .stach a,
+.bagelsenbeans a{
+  color: #e30613;
+}
+
+.vandobben a,
+.starbucks a,
+.stach a,
 .bagelsenbeans a:visited{
-  color: green;
+  color: #e30613;
 }
 
 .bagelsenbeans i,
