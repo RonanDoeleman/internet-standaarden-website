@@ -92,7 +92,7 @@ p{
 .restaurants a,
 .coffee-places a,
 .lunchrooms a {
-  margin-top: -4em;
+  margin-top: -3em;
   background-image: url(../images/Asset4.png);
   background-size: cover;
   height: 10em;
