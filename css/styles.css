@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  position: absolute;
+
   font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -12,7 +12,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 9.4em;
-  width: 40em;
+  width: 100%;
   display: flex;
 }
 
@@ -35,7 +35,7 @@ nav{
 
       li {
         width: 100%;
-        height: 5em;
+        height: 8em;
       }
 
       ul li a {
@@ -48,7 +48,7 @@ nav{
         color: black;
         background-color: white;
         text-decoration: none;
-        font-size: 1.3em;
+        font-size: 2em;
       }
 
       ul li a:hover {
@@ -66,7 +66,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.2em;
-    width: 4.7em;
+    width: 4em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
@@ -175,7 +175,7 @@ img.starbuckslogo{
   position: absolute;
   right: 3.5em;
   top: 0.5em;
-  width: 2.5em;
+  width: 4em;
   height: auto;
 }
 
@@ -248,13 +248,14 @@ hr{
   padding-left: 1.2em;
 }
 
+
 .bagelsenbeans h2{
   margin-bottom: 0.2em;
 }
 
 .vandobben{
   margin-bottom: 3.3em;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .bagelsenbeans u,
@@ -307,6 +308,7 @@ i{
 #streep{
   width: 85%;
   height: 0.1em;
+  margin-bottom: 1em;
 }
 
 img.locatie{
@@ -350,7 +352,7 @@ img.anzichtkaart {
 section.filter{
   width: 25em;
   border: 1px solid black;
-  margin-left: 8em;
+  margin-left: 11.2em;
   background: #e30613;
   margin-bottom: 3em;
 }
