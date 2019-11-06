@@ -166,7 +166,7 @@ img.starbuckslogo{
   padding-left: 3.1em;
   padding-right: 1.2em;
   margin-bottom: 1.2em;
-  margin-top: ;
+  
 }
 
 .favorieten{
@@ -321,7 +321,7 @@ section.bagelsenbeans{
 /* Starbucks Detail Pagina */
 
 .starbucksdetail h2{
-  font-size: 5em;
+  font-size: 4.5em;
 }
 
 i{
