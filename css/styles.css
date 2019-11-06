@@ -315,8 +315,9 @@ i{
 }
 
 .starbucksdetail a:visited{
-  color: green
+  color: #e30613;
 }
+
 
 #streep{
   width: 85%;
@@ -325,23 +326,31 @@ i{
 }
 
 img.locatie{
-  width: 3em;
+  width: 3.3em;
   height: auto;
   position: relative;
   top: -2.7em;
   right: -5em;
 }
 
+.locatiebar a{
+  color: #e30613;
+}
+
+.locatiebar a:visited{
+  color: #e30613;
+}
+
 .locatiebar p{
   padding-left: 150px;
   font-size: 1cm;
-  margin-top: 25px;
   margin-bottom: -20px;
-  color: green;
+  color: #e30613;
 }
+
 .mooiester{
   position: absolute;
-  width: 3em;
+  width: 4em;
   height: auto;
   top: -0.4em;
   right: 8em;
@@ -426,6 +435,14 @@ section.filter p{
 
 .rating > span{
   width: 1.2em;
+}
+
+.starbucksdetail i{
+  margin-left: -0.5em;
+}
+
+.starbucksdetail p{
+  color: green;
 }
 
 .rating > span:hover:before,
