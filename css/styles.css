@@ -16,7 +16,6 @@ header {
   display: flex;
 }
 
-
 nav{
   position: sticky;
   z-index: 99;
@@ -87,7 +86,6 @@ p{
   font-size: 1.3em;
   padding: 0 20px;
 }
-
 
 .restaurants a,
 .coffee-places a,
@@ -162,7 +160,7 @@ img.starbuckslogo{
   margin-left: 2em;
   border: solid black 1px;
   margin-right: 0.5em;
-  margin-bottom: 9em;
+  margin-bottom: 2.5em;
 }
 
 .starbucks p{
@@ -328,7 +326,7 @@ section.bagelsenbeans{
 }
 
 i{
-  font-size: 0.1em;
+  font-size: 1.2em;
   margin-right: 2em;
 }
 
