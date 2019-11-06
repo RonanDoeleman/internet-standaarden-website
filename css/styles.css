@@ -66,13 +66,13 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.2em;
-    width: 4.5em;
+    width: 4em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     h2{
     margin: 0;
-    padding: 0 10px;
+    padding: 0 16px;
     color: #e30613;
     font-size: 2.9em;
     font-family: 'SourceSansPro-SemiBold',  'Open Sans', 'Helvetica Neue', sans-serif;
@@ -350,7 +350,7 @@ img.anzichtkaart {
 }
 
 section.filter{
-  width: 27em;
+  width: 26em;
   border: 1px solid black;
   margin-left: 11em;
   background: #e30613;
