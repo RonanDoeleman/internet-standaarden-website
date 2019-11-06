@@ -162,13 +162,13 @@ img.starbuckslogo{
   margin-left: 2em;
   border: solid black 1px;
   margin-right: 0.5em;
-  margin-bottom: 3em;
 }
 
 .starbucks p{
   padding-left: 3.1em;
   padding-right: 1.2em;
   margin-bottom: 1.2em;
+  margin-top: ;
 }
 
 .favorieten{
@@ -465,6 +465,7 @@ section.filter p{
 
 .starbucksdetail p{
   color: green;
+  margin-left: 3em;
 }
 
 .rating > span:hover:before,
